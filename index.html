@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tiempo - Poema</title>
     <style>
-        /* Configuración global de la página */
+        /* Configuración global de la página para tema oscuro */
         body {
-            background-color: #fcfaf2; /* Color de fondo calmo, tono papel marfil */
-            color: #2c2c2c; /* Gris oscuro para evitar el contraste excesivo del negro puro */
-            font-family: 'Georgia', serif; /* Tipografía clásica con serifas ideal para lectura de poesía */
+            background-color: #0a0a0a; /* Fondo negro profundo */
+            color: #d4d4d4; /* Gris claro para el texto general */
+            font-family: 'Georgia', serif;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -21,13 +21,13 @@
 
         /* Contenedor principal del poema */
         .tarjeta-poema {
-            background-color: #ffffff;
+            background-color: #141414; /* Tono de gris muy oscuro para separar del fondo */
             padding: 50px 40px;
             max-width: 650px;
             width: 100%;
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04); /* Sombra sutil de fondo */
-            border-radius: 2px;
-            border: 1px solid #eae6df;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.9); /* Sombra difuminada para dar profundidad */
+            border-radius: 4px;
+            border: 1px solid #262626; /* Borde sutil */
         }
 
         /* Estilo del título */
@@ -37,18 +37,18 @@
             text-align: center;
             margin-bottom: 45px;
             letter-spacing: 4px;
-            color: #111111;
+            color: #ffffff; /* Blanco puro para el título principal */
             text-transform: uppercase;
         }
 
-        /* Cuerpo del poema y gestión de espaciados */
+        /* Cuerpo del poema */
         .contenido-poema {
             font-size: 16px;
-            line-height: 1.8; /* Espaciado interlineal óptimo */
-            white-space: pre-wrap; /* Mantiene saltos de línea y estrofas del texto original */
-            color: #333333;
+            line-height: 1.8;
+            white-space: pre-wrap; /* Mantiene los saltos de línea originales */
+            color: #b3b3b3; /* Gris medio para los versos */
             max-width: 85%;
-            margin: 0 auto; /* Centra el bloque del poema dentro de la tarjeta */
+            margin: 0 auto;
         }
     </style>
 </head>
